@@ -39,12 +39,12 @@ const handleSubmit = (event) => {
     <form onSubmit={handleSubmit} className="relative">
             <input
                 type="text"
-                placeholder="Search"
-                className="w-full pl-8 pr-4 py-2 rounded-lg shadow-sm focus:outline-none focus:shadow-outline text-gray-700"
+                placeholder="Ask me anything"
+                className="w-full pl-8 pr-4 py-2 rounded-lg shadow-sm focus:outline-none focus:shadow-outline "
                 value={searchTerm}
                 onChange={handleInputChange}
             />
-            <button type="submit" className="absolute inset-y-0 right-0 px-3 py-2 bg-red text-white rounded-r-lg  focus:outline-none focus:bg-gray-600" onClick={run}>
+            <button type="submit" className="absolute inset-y-0 right-0 px-3 py-2 bg-red  bg-darkGray text-white rounded-r-lg  focus:outline-none focus:bg-gray-600" onClick={run}>
                 Search
             </button>
         </form>

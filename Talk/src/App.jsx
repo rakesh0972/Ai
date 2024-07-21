@@ -7,7 +7,7 @@ const App = () => {
 
   return (
 
-  <div className="flex min-h-screen">
+  <div className="">
     {/* <Navbar /> */}
     <Home />
   </div>
